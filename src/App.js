@@ -1,7 +1,11 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return <div className="App font-monov text-fuchsia-600">HIIII</div>;
+  return (
+    <div className="App">
+      <Body />
+    </div>
+  );
 }
 
 export default App;
