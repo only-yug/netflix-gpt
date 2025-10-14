@@ -1,9 +1,11 @@
-// function App() {
-//   return (
-//     <div className="App">
-//       <Body />
-//     </div>
-//   );
-// }
+import Body from "./components/Body";
 
-// export default App;
+function App() {
+  return (
+    <div className="App">
+      <Body />
+    </div>
+  );
+}
+
+export default App;
